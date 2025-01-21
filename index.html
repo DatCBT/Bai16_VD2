@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 16 - Van dung 2</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f8fb; /* Màu nền nhẹ nhàng */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://cdn.pixabay.com/photo/2016/08/22/23/51/lily-1619793_960_720.jpg'); /* Hình nền hoa sen */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(255, 182, 193, 0.8); /* Màu hồng nhạt của hoa sen */
+            color: white;
+            padding: 20px;
+            font-size: 2rem;
+            border-bottom: 5px solid #f8d7da;
+        }
+
+        .content {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin: 40px auto;
+            padding: 30px;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .content h2 {
+            color: #f06292; /* Màu hồng đậm của hoa sen */
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .important {
+            color: #e91e63; /* Màu đỏ của hoa sen */
+            font-weight: bold;
+        }
+
+        .normal {
+            color: #8e24aa; /* Màu tím nhẹ */
+            font-style: italic;
+        }
+
+        footer {
+            background-color: rgba(255, 182, 193, 0.8);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1rem;
+            border-top: 5px solid #f8d7da;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .box {
+            border-top: 4px solid red;
+            border-bottom: 2px dashed blue;
+            border-left: 3px dotted green;
+            border-right: 5px double purple;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bai 16 - Van dung 2</h1>
+    </header>
+
+    <div class="content">
+        <h2>Giải quyết vấn đề định dạng CSS cho các khung và viền khác nhau</h2>
+        <p><strong>Có thể thiết lập định dạng cho các khung với thông số khung, viền trên, dưới, trái, phải khác nhau được không? Em hãy tìm hiểu và trình bày cách thiết lập định dạng CSS cho các khung, viền như vậy.</strong></p>
+
+        <div class="box">
+            <h3>Giải thích về định dạng viền khác nhau</h3>
+            <p>Có, bạn có thể thiết lập định dạng khác nhau cho các khung và viền trên, dưới, trái, phải bằng cách sử dụng các thuộc tính CSS <code>border</code> và các thuộc tính liên quan.</p>
+            <p><strong>Cách thiết lập:</strong></p>
+            <ul>
+                <li>Sử dụng thuộc tính <code>border</code> để định dạng viền của khung.</li>
+                <li>Để thiết lập viền khác nhau cho các cạnh, bạn có thể sử dụng các thuộc tính <code>border-top</code>, <code>border-bottom</code>, <code>border-left</code>, <code>border-right</code> để chỉ định viền cho từng cạnh riêng biệt.</li>
+                <li>Ví dụ, bạn có thể tạo ra các viền như: viền đỏ ở phía trên, viền nét đứt màu xanh ở phía dưới, viền nét chấm màu xanh lá cây ở phía trái và viền đôi màu tím ở phía phải.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
